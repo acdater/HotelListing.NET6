@@ -1,13 +1,30 @@
 ﻿<Properties StartupConfiguration="{3830C0B6-F879-437B-99A8-4C294BA29FD4}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HotelListing.API PreferredExecutionTarget="/Applications/Firefox.app" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelListing.API/Controllers/WeatherForecastController.cs">
+    <Files>
+      <File FileName="HotelListing.API/appsettings.json" Line="3" Column="113" />
+      <File FileName="HotelListing.API/Program.cs" Line="2" Column="29" />
+      <File FileName="HotelListing.API/Data/HotelListingDbContext.cs" Line="53" Column="32" />
+      <File FileName="HotelListing.API/Data/Hotel.cs" Line="16" Column="39" />
+      <File FileName="HotelListing.API/Data/Country.cs" Line="11" Column="57" />
+      <File FileName="HotelListing.API/Migrations/HotelListingDbContextModelSnapshot.cs" Line="31" Column="1" />
+      <File FileName="HotelListing.API/Migrations/20221120192318_SeedCountriesAndHotelsData.cs" Line="1" Column="1" />
+      <File FileName="HotelListing.API/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="HotelListing" expanded="True" />
+          <Node name="HotelListing" expanded="True">
+            <Node name="HotelListing.API" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -15,7 +32,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.HotelListing.API PreferredExecutionTarget="/Applications/Firefox.app" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
